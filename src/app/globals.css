@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: white; /* Client-specified color */
+    background-color: transparent;
+}
+
+.text {
+    font-family: inherit;
+    min-width: 0px;
+    line-height: 24px;
+    font-size: 25px !important;
+    color: inherit !important;
+    display: inline;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    letter-spacing: inherit;
+}
+
+.text2 {
+    font-size: 28px;
+    line-height: 1.2;
+    color: black; /* Client-specified color */
+    font-weight: 200;
+    font-family: 'Fjalla One', arial, sans-serif;
+    letter-spacing: normal;
+}
+.text4{
+
+    font-size: 28px;
+    line-height: 1.2;
+    color: rgb(111, 82, 67); /* Client-specified color */
+    font-weight: 700;
+    font-family: 'Fjalla One', arial, sans-serif;
+    letter-spacing: normal;
+
+}
+.h {
+    background-color: rgb(111, 82, 67); /* Client-specified color */
+    width: calc(50% * 1.414);
+    height: calc(50% * 1.414);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.h h1 {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    color: white; /* Ensure the text is visible on the dark background */
+}
+ 
